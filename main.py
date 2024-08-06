@@ -28,7 +28,7 @@ def translate_role_for_streamlit(user_role):
 #Intialize chat session
 
 if "chat_session" not in st.session_state:
-    st.session_state.chat_session = model.start_chat(history[])
+    st.session_state.chat_session = model.start_chat(history=[])
 
 
 #Chatbot title
